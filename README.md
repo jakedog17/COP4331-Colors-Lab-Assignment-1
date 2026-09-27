@@ -56,5 +56,16 @@ Step 6:
 
 Test Application by logining in in the website via the Domain name and edit the colors connected to the login information. 
 
-
+[Limitations]
+- For Digital Ocean make sure you are using a LAMP Droplet and a basic 1 GB Ram 25GB SSD CPU for server hosting.
+- Use ssh to connect to the serbver.
+- Use "mysql -u root -p (then enter your password)" command in the server terminal to add mySQL.
+    - You can test the mySQL server by putting this command in the server mysql terminal:
+              ```
+              select * from Users;
+              select * from Colors;
+              also:
+              select * from Colors where UserID=1;
+              select * from Colors where UserID
+              ```
 
