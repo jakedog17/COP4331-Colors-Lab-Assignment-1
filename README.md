@@ -69,3 +69,7 @@ Test Application by logining in in the website via the Domain name and edit the 
               select * from Colors where UserID
               ```
 
+[AI Disclaimer]
+
+Every file in LAMP Stack folder was created without the use of AI Assistance.
+The diagrams in the docs/uml folder was created with the assistance of Copilot in Visual Studio.
