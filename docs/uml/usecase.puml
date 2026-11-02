@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+
+actor User
+
+rectangle "Colors Application" {
+  usecase "Log in" as Login
+  usecase "Validate credentials" as Validate
+  usecase "Search colors" as Search
+  usecase "Add color" as Add
+  usecase "Log out" as Logout
+}
+
+User --> Login
+Login ..> Validate : <<include>>
+User --> Search
+User --> Add
+User --> Logout
+
+note right of Search
+  Search, Add, and Log out are available
+  from color.html after a successful login.
+  Logging out clears the client session
+  and returns the user to index.html.
+end note
+
+@enduml
