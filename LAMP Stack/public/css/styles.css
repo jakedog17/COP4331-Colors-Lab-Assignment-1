@@ -9,7 +9,7 @@ body {
     margin: 2% 5%;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
-    color: #ffffff;
+    color: #fff;
 }
 
 #loginDiv,
@@ -32,8 +32,8 @@ body {
 
 .buttons:hover {
     background-color: #00d5124f;
-    color: #ffffff;
-    opacity: 50%;
+    color: #fff;
+    opacity: 0.5;
 }
 
 #loginName,
