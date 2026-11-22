@@ -1,0 +1,8 @@
+# Ignore dependency folders
+node_modules/
+
+# Ignore environment/secret files
+# .env
+
+# Ignore OS-generated files
+# .DS_Store
